@@ -2,7 +2,8 @@
 
 [![PowerShell](https://img.shields.io/badge/PowerShell-5.0%2B-blue.svg)](https://github.com/PowerShell/PowerShell)
 [![Windows](https://img.shields.io/badge/Windows-10%2B-blue.svg)](https://www.microsoft.com/windows)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
+## [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 Enhanced PowerShell script to reset Warp Terminal's AI limit counter and relaunch the app while maintaining terminal history.
 
@@ -53,15 +54,9 @@ Enhanced PowerShell script to reset Warp Terminal's AI limit counter and relaunc
 1. **Download** the script
 2. **Right-click** → Properties → **Unblock** (if needed)
 3. **Run** in PowerShell
+4. **Enjoy** a fresh Warp Terminal experience! without limits
 
-```powershell
-# Download and unblock
-Invoke-WebRequest -Uri "path-to-script" -OutFile "Clean-WarpData.ps1"
-Unblock-File -Path ".\Clean-WarpData.ps1"
-
-# Run it
-.\Clean-WarpData.ps1
-```
+Note: It is recommended to close Warp Terminal manually before running the script, but it will handle that for you.
 
 ## ❓ Troubleshooting
 
@@ -89,7 +84,7 @@ Unblock-File -Path ".\Clean-WarpData.ps1"
 
 ## 📄 License
 
-MIT License - Feel free to modify and share!
+## TO DO: Add license information here
 
 ---
 
